@@ -1,6 +1,6 @@
 {
   "name": "@mona/parse",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "main sync parsing API",
   "main": "lib/index.js",
   "scripts": {
