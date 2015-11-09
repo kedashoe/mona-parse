@@ -18,6 +18,11 @@
     "url": "https://github.com/zkat/mona-parse/issues"
   },
   "homepage": "https://github.com/zkat/mona-parse#readme",
+  "dependencies": {
+    "@mona/internals": "^1.0.0",
+    "@mona/core": "^1.0.0",
+    "@mona/combinators": "^1.0.0"
+  },
   "devDependencies": {
     "@mona/core": "^1.0.0",
     "babel-cli": "^6.1.2",
