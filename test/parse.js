@@ -1,6 +1,6 @@
 /* global describe, it */
 var assert = require('assert')
-var parse = require('..')
+var parse = require('..').parse
 var core = require('@mona/core')
 
 describe('mona.parse()', function () {

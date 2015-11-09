@@ -17,7 +17,7 @@ import {followedBy} from '@mona/combinators'
  * @example
  * parse(token(), 'a') // => 'a'
  */
-export default function parse (parser, string, opts = {}) {
+export function parse (parser, string, opts = {}) {
   opts.throwOnError = (typeof opts.throwOnError === 'undefined'
                        ? true : opts.throwOnError)
   if (!opts.allowTrailing) {
